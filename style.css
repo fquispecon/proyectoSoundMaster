@@ -301,6 +301,17 @@ body{
 
 @media (max-width: 767px){
 
+  .djconsola:hover{
+    animation: animacion 5s;
+  }
+
+  @keyframes animacion{
+    
+    50%{
+      transition: all 2s;
+    }
+  }
+
 body{
   width: 100%;
   display: grid;
@@ -510,6 +521,17 @@ fieldset button {
 
 @media (max-width: 1023px) and (min-width: 768px){
 
+  .djconsola:hover{
+    animation: animacion 5s;
+  }
+
+  @keyframes animacion{
+    
+    50%{
+      transition: all 2s;
+    }
+  }
+
   body{
     width: 100%;
     display: grid;
@@ -606,4 +628,18 @@ fieldset button {
   }
 
   
+  }
+
+
+  .djconsola:hover{
+    animation: animacion 5s;
+  }
+
+  @keyframes animacion{
+    0%{
+      transform: scale(1.2);
+    }
+    99%{
+      border-radius: 5cm;
+    }
   }
