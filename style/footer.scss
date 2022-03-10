@@ -1,0 +1,28 @@
+footer {
+    grid-area: footing;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    display: flex;
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+    width: 100%;
+    background-color: aliceblue;
+
+    div {
+        margin: auto 2%;
+        font-size: 16px;
+        height: auto;
+      }
+  }
+
+  @media (max-width: 767px){
+
+    footer {
+        div {
+            font-size: 13px;
+          }
+      }
+
+
+  }
